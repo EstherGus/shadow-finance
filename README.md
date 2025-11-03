@@ -162,4 +162,7 @@ For issues and questions:
 - Review contract tests for usage examples
 - Check frontend hooks for integration patterns
 
+## Contributing
+
+This project follows standard development practices. Please ensure all tests pass before submitting changes.
 

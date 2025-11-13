@@ -44,6 +44,7 @@ contract ShadowFinance is ZamaEthereumConfig {
     // ============ State Variables ============
     
     // User address => record index => IncomeRecord
+    // All amounts are encrypted using euint128 for privacy
     mapping(address => mapping(uint256 => IncomeRecord)) public incomeRecords;
     mapping(address => uint256) public incomeCount;
     

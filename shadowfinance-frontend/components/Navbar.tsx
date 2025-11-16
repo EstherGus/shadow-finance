@@ -8,6 +8,7 @@ import { FhevmDecryptionSignature } from "@/fhevm/FhevmDecryptionSignature";
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 
+// Navigation links for main application routes
 const NAV_LINKS = [
   { href: "/dashboard", label: "Dashboard" },
   { href: "/transactions", label: "Transactions" },

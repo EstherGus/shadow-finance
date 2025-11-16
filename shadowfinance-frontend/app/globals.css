@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+/* Global CSS variables for design tokens */
 :root {
   --color-bg: #f8f9fa;
   --color-surface: #ffffff;
